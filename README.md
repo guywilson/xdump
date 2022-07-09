@@ -3,11 +3,12 @@ Hexdump a file
 
 A simple version of hexdump to print the contents of a file.
 
-  Usage:
-    xdump <filename>
+    Usage:
+        xdump <filename>
 
 An example: A dump of the source file xdump.c
 
+''
 00000000	2369 6E63 6C75 6465 203C 7374 6469 6F2E  |#include <stdio.|
 00000010	683E 0A23 696E 636C 7564 6520 3C73 7464  |h>.#include <std|
 00000020	6C69 622E 683E 0A23 696E 636C 7564 6520  |lib.h>.#include |
@@ -118,3 +119,4 @@ An example: A dump of the source file xdump.c
 000006B0	2020 2020 7D0A 0A20 2020 2066 636C 6F73  |    }..    fclos|
 000006C0	6528 6670 7472 293B 0A0A 2020 2020 7265  |e(fptr);..    re|
 000006D0	7475 726E 2030 3B0A 7D0A  |turn 0;.}.|
+''
